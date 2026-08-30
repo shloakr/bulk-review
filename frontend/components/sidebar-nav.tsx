@@ -8,6 +8,21 @@ import { api, Review } from "@/lib/api";
 export default function SidebarNav() {
   const pathname = usePathname();
   const [reviews, setReviews] = useState<Review[]>([]);
+  const [collapsed, setCollapsed] = useState(false);
+
+  useEffect(() => {
+    try {
+      setCollapsed(localStorage.getItem("sidebar-collapsed") === "1");
+    } catch {}
+  }, []);
+  const toggle = () => {
+    setCollapsed((c) => {
+      try {
+        localStorage.setItem("sidebar-collapsed", c ? "0" : "1");
+      } catch {}
+      return !c;
+    });
+  };
 
   useEffect(() => {
     let alive = true;
@@ -21,16 +36,44 @@ export default function SidebarNav() {
     };
   }, []);
 
+  if (collapsed) {
+    return (
+      <aside className="flex h-screen w-14 shrink-0 flex-col items-center gap-3 border-r border-line bg-white py-5">
+        <button
+          onClick={toggle}
+          title="Expand sidebar"
+          className="flex h-8 w-8 items-center justify-center rounded-xl bg-brand text-sm font-bold text-white"
+        >
+          A
+        </button>
+        <Link
+          href="/"
+          title="New review"
+          className="flex h-8 w-8 items-center justify-center rounded-lg text-lg text-ink-soft hover:bg-paper"
+        >
+          +
+        </Link>
+      </aside>
+    );
+  }
+
   return (
     <aside className="flex h-screen w-64 shrink-0 flex-col border-r border-line bg-white">
       <div className="flex items-center gap-2.5 px-5 py-5">
         <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-brand text-sm font-bold text-white">
           A
         </div>
-        <div>
+        <div className="min-w-0 flex-1">
           <div className="text-sm font-semibold leading-tight">Arca Bulk Review</div>
           <div className="text-[11px] text-ink-soft">Regulatory portfolio</div>
         </div>
+        <button
+          onClick={toggle}
+          title="Collapse sidebar"
+          className="rounded-lg px-1.5 py-1 text-ink-soft hover:bg-paper"
+        >
+          «
+        </button>
       </div>
 
       <nav className="px-3">
