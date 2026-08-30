@@ -12,11 +12,11 @@ PyMuPDF → page-aware chunks → dense (text-embedding-3-large) + SPLADE sparse
 → LLM qualification per candidate (precision recovered by reasoning)
 → ONE bounded subagent research session per document (search_document · find_exact · open_page, ≤8 calls)
 → server-validated citations → Next.js records table + evidence drawer
+
+The core design principle is to spend cheap retrieval compute broadly and expensive model reasoning only after the search space has collapsed.
 ```
 
-Key decisions: **recall first, precision later** (a positive missed at
-discovery is unrecoverable; a false positive costs one visible junk row that
-extraction empties out); **chunk-level search** so a 2-page section in a long
+Key decisions: **recall first, precision later**:a false negative at discovery is unrecoverable; a false positive can still be rejected during qualification or extraction. **Chunk-level search** so a 2-page section in a long
 PDF can't be diluted; **SPLADE for exact regulatory tokens** (`3.2.P.4`,
 `PH-102`) + dense for paraphrase; **one session per document** because fields
 are related (the contradiction column needs grade + spec jointly); **the model
@@ -37,6 +37,30 @@ Test 2 reused the pipeline unchanged — a different prompt produced a
 different 6-column schema at the same accuracy. Evaluation runs against
 render-time ground truth (values + expected evidence pages recorded while
 generating the synthetic PDFs), auto-detecting which test a review targets.
+
+Ground-truth labels and expected values are evaluation-only and are never exposed to the planner, retriever, qualifier, or extraction agents.
+
+## Cost & latency (measured)
+
+Latency, wall-clock at `MAX_MODEL_CONCURRENCY=5` on the 620-doc corpus:
+**both benchmark reviews complete in ~3m45s** — plan ~9s, discovery ~8s,
+qualify 100 candidates ~1.5-2min, extract 20-41 docs ~1.5-2min. The document
+researcher averaged 7.4 tool calls/doc (CMC) and 6.7 (stability). One-time
+ingest: ~20 min for 620 PDFs (CPU SPLADE dominates; 915k embedding tokens = $0.12).
+
+Cost, from an instrumented probe (per-call `usage` captured, × published prices):
+
+| Stage (model) | Tokens per unit | Cost |
+|---|---|---|
+| Planner (terra) | ~420 in / ~410 out, 1 call | ~$0.006 / review |
+| Qualifier (luna) | ~1.4k in / ~160 out per doc | ~$0.0005 / doc → **~$0.05 per 100 candidates** |
+| Extractor (terra) | ~9k fresh + ~15k cached in, ~600 out per doc | **~$0.05-0.10 / doc** |
+
+≈ **$2-4 per CMC review** (41 extractions), **$1-2 per stability review** (20).
+Extraction is >90% of spend — which is the point of the staged design: the
+100-candidate volume runs on the cheap model, and the expensive tool-using
+model only touches documents that survived qualification. Responses-API
+prompt caching cuts extractor input cost ~5× on the multi-turn sessions.
 
 ## Rejected for the MVP — and the tradeoff taken
 

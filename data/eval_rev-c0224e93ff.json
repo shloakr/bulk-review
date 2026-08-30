@@ -1,12 +1,14 @@
 {
   "review_id": "rev-c0224e93ff",
+  "test": "cmc",
   "field_key_map": {
-    "excipient_grade_used": "excipient_grade",
-    "grade_justification": "justification",
+    "contradicts_current_specification": "contradicts_current_spec",
     "guidance_cited": "guidance_cited",
-    "contradicts_current_specification": "contradicts_current_spec"
+    "grade_justification": "justification",
+    "excipient_grade_used": "excipient_grade"
   },
   "discovery": {
+    "test": "cmc",
     "candidate_recall": 1.0,
     "qualified_recall": 1.0,
     "qualified_precision": 0.975609756097561,
@@ -24,16 +26,29 @@
   "extraction": {
     "overall_field_accuracy": 0.975,
     "per_field": {
-      "excipient_grade": {
+      "contradicts_current_spec": {
+        "accuracy": 1.0,
+        "correct": 40,
+        "total": 40,
+        "errors": []
+      },
+      "guidance_cited": {
         "accuracy": 0.975,
         "correct": 39,
         "total": 40,
         "errors": [
           {
-            "document_id": "DOC-0307",
-            "predicted": "Ac-Di-Sol SD-711",
+            "document_id": "DOC-0430",
+            "predicted": [
+              "Ph. Eur. general monograph 2034",
+              "ICH Q8(R2)"
+            ],
             "status": "found",
-            "expected": "Solutab Type A"
+            "expected": [
+              "Ph. Eur. general monograph 2034",
+              "IPEC Excipient Qualification Guide",
+              "ICH Q8(R2)"
+            ]
           }
         ]
       },
@@ -56,31 +71,18 @@
           }
         ]
       },
-      "guidance_cited": {
+      "excipient_grade": {
         "accuracy": 0.975,
         "correct": 39,
         "total": 40,
         "errors": [
           {
-            "document_id": "DOC-0430",
-            "predicted": [
-              "Ph. Eur. general monograph 2034",
-              "ICH Q8(R2)"
-            ],
+            "document_id": "DOC-0307",
+            "predicted": "Ac-Di-Sol SD-711",
             "status": "found",
-            "expected": [
-              "Ph. Eur. general monograph 2034",
-              "IPEC Excipient Qualification Guide",
-              "ICH Q8(R2)"
-            ]
+            "expected": "Solutab Type A"
           }
         ]
-      },
-      "contradicts_current_spec": {
-        "accuracy": 1.0,
-        "correct": 40,
-        "total": 40,
-        "errors": []
       }
     },
     "extracted_positives": 40
