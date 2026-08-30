@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import SidebarNav from "@/components/sidebar-nav";
+import AppShell from "@/components/app-shell";
 
 export const metadata: Metadata = {
   title: "Arca Bulk Review",
@@ -11,10 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <div className="flex">
-          <SidebarNav />
-          <main className="min-h-screen flex-1 overflow-x-hidden">{children}</main>
-        </div>
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );

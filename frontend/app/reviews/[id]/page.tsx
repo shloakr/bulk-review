@@ -6,6 +6,7 @@ import ReviewProgress from "@/components/review-progress";
 import ResultsTable, { CellSelection } from "@/components/results-table";
 import CitationPanel from "@/components/citation-panel";
 import EvalSummary from "@/components/eval-summary";
+import { useSidebar } from "@/components/app-shell";
 
 export default function ReviewPage({
   params,
@@ -13,6 +14,7 @@ export default function ReviewPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = use(params);
+  const { collapsed } = useSidebar();
   const [review, setReview] = useState<Review | null>(null);
   const [results, setResults] = useState<DocResult[]>([]);
   const [events, setEvents] = useState<ReviewEvent[]>([]);
@@ -65,7 +67,7 @@ export default function ReviewPage({
 
   return (
     <div className="px-8 py-8">
-      <div className="mx-auto max-w-6xl">
+      <div className={`mx-auto transition-[max-width] duration-300 ${collapsed ? "max-w-[1800px]" : "max-w-6xl"}`}>
         <h1 className="text-xl font-semibold tracking-tight">
           {review.name || "Bulk review"}
         </h1>
