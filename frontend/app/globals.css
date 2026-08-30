@@ -13,6 +13,60 @@
   --color-paper: #fafaf9;
 }
 
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes pop-in {
+  from { opacity: 0; transform: scale(0.6); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Sidebar collapse: the inner column keeps a fixed width so icons never
+   re-flow; copy fades/slides out and rows shrink to icon width. */
+.sidebar-copy {
+  transition:
+    opacity var(--sidebar-copy-duration, 180ms) var(--sidebar-easing, ease),
+    transform var(--sidebar-copy-duration, 180ms) var(--sidebar-easing, ease);
+}
+aside[data-sidebar-collapsed="true"] .sidebar-copy {
+  opacity: 0;
+  transform: translateX(calc(-1 * var(--sidebar-copy-offset, 8px)));
+  pointer-events: none;
+}
+.sidebar-row {
+  width: 208px;
+  transition: width var(--sidebar-copy-duration, 180ms) var(--sidebar-easing, ease);
+}
+aside[data-sidebar-collapsed="true"] .sidebar-row {
+  width: 36px;
+}
+.sidebar-collapse-control,
+.sidebar-brand-control {
+  transition: opacity var(--sidebar-copy-duration, 180ms) var(--sidebar-easing, ease);
+}
+aside[data-sidebar-collapsed="true"] .sidebar-collapse-control,
+aside[data-sidebar-collapsed="true"] .sidebar-brand-control {
+  opacity: 0;
+  pointer-events: none;
+}
+.sidebar-expand-control {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--sidebar-copy-duration, 180ms) var(--sidebar-easing, ease);
+}
+aside[data-sidebar-collapsed="true"] .sidebar-expand-control {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 body {
   background: var(--color-paper);
   color: var(--color-ink);
