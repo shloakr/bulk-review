@@ -86,7 +86,9 @@ export type Evaluation = {
     >;
   };
   citations: {
-    citation_page_accuracy: number | null;
+    citation_field_hit_rate: number | null;
+    citation_precision: number | null;
+    fields_all_citations_expected: number | null;
     citation_coverage: number | null;
   };
 };

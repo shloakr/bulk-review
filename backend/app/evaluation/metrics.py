@@ -194,7 +194,12 @@ def evaluate_review(review_id: str) -> dict:
     }
 
     per_field = {k: {"correct": 0, "total": 0, "errors": []} for k in gt_keys}
+    # citation metrics — three strictness levels:
+    #   field hit rate:  >=1 cited page is an expected page (lenient, per field)
+    #   precision:       each individual cited page is an expected page
+    #   all-expected:    every cited page of a field is an expected page
     cite_page_hits = cite_page_total = cite_cov_num = cite_cov_den = 0
+    cite_prec_ok = cite_prec_total = all_exp_ok = all_exp_total = 0
 
     for doc_id in sorted(positives & set(results)):
         row = results[doc_id]
@@ -221,11 +226,16 @@ def evaluate_review(review_id: str) -> dict:
                 cids = f.get("citation_ids", [])
                 if cids:
                     cite_cov_num += 1
-                    pages = {chunk_pages.get(c) for c in cids} - {None}
+                    pages = [chunk_pages.get(c) for c in cids]
                     expected = set(truth.get("expected_pages", []))
                     if expected:
+                        hits = [p for p in pages if p in expected]
                         cite_page_total += 1
-                        cite_page_hits += int(bool(pages & expected))
+                        cite_page_hits += int(bool(hits))
+                        cite_prec_total += len(pages)
+                        cite_prec_ok += len(hits)
+                        all_exp_total += 1
+                        all_exp_ok += int(len(hits) == len(pages))
 
     totals = sum(v["total"] for v in per_field.values())
     corrects = sum(v["correct"] for v in per_field.values())
@@ -245,7 +255,14 @@ def evaluate_review(review_id: str) -> dict:
             "extracted_positives": len([d for d in positives if d in results]),
         },
         "citations": {
-            "citation_page_accuracy": cite_page_hits / cite_page_total if cite_page_total else None,
+            # lenient: >=1 cited page correct per field (formerly "page accuracy")
+            "citation_field_hit_rate": cite_page_hits / cite_page_total if cite_page_total else None,
+            # strict: each individual cited page must be an expected page
+            "citation_precision": cite_prec_ok / cite_prec_total if cite_prec_total else None,
+            # strictest: every cited page of the field is expected
+            "fields_all_citations_expected": all_exp_ok / all_exp_total if all_exp_total else None,
+            # invariant check: found claims without citations are downgraded at
+            # extraction time, so anything under 100% signals a pipeline bug
             "citation_coverage": cite_cov_num / cite_cov_den if cite_cov_den else None,
         },
     }

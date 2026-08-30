@@ -46,8 +46,10 @@ def main():
     print(f"  Field accuracy:          {pct(e['overall_field_accuracy'])}")
     for k, v in e["per_field"].items():
         print(f"    {k:28s} {pct(v['accuracy'])}  ({v['correct']}/{v['total']})")
-    print(f"  Citation page accuracy:  {pct(c['citation_page_accuracy'])}")
-    print(f"  Citation coverage:       {pct(c['citation_coverage'])}")
+    print(f"  Citation field hit rate: {pct(c['citation_field_hit_rate'])}   (>=1 cited page correct)")
+    print(f"  Citation precision:      {pct(c['citation_precision'])}   (each cited page correct)")
+    print(f"  All citations expected:  {pct(c['fields_all_citations_expected'])}")
+    print(f"  Citation coverage:       {pct(c['citation_coverage'])}   (invariant; <100% = bug)")
     if d["missed_candidates"]:
         print(f"  Missed at discovery:     {d['missed_candidates']}")
     if d["missed_qualified"]:

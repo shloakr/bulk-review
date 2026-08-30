@@ -64,19 +64,29 @@ export default function EvalSummary({ reviewId }: { reviewId: string }) {
             tip="Share of extracted field values that match the ground truth, across all four fields on the ground-truth documents."
           />
           <Metric
-            label="Citation page accuracy"
-            v={ev.citations.citation_page_accuracy}
-            tip="For fields marked found, how often at least one cited page is among the pages where the ground truth says the evidence actually lives."
+            label="Citation precision"
+            v={ev.citations.citation_precision}
+            tip="Strict: of all individual cited pages across found fields, the share that are pages where the ground truth says the evidence actually lives. Extra citations to wrong pages count against this."
           />
           <Metric
-            label="Citation coverage"
-            v={ev.citations.citation_coverage}
-            tip="Share of found claims backed by at least one server-validated citation (the cited chunk exists, belongs to this document, and was actually shown to the model by a tool)."
+            label="Citation field hit rate"
+            v={ev.citations.citation_field_hit_rate}
+            tip="Lenient: for fields marked found, how often at least one cited page is an expected evidence page. Does not penalize additional off-page citations — see Citation precision for the strict version."
+          />
+          <Metric
+            label="All citations expected"
+            v={ev.citations.fields_all_citations_expected}
+            tip="Strictest: share of found fields where every cited page is an expected evidence page. Note: ground truth marks where the fact was rendered, so a citation to a legitimate repeat mention elsewhere counts against this — treat it as a lower bound."
           />
           <Metric
             label="Qualified precision"
             v={ev.discovery.qualified_precision}
             tip="Share of qualified documents that are true positives, before extraction weeds out documents with nothing to extract. Kept for diagnostics; Final precision is the headline number."
+          />
+          <Metric
+            label="Citation coverage"
+            v={ev.citations.citation_coverage}
+            tip="Invariant check, not an achievement: extraction downgrades any uncited found claim to uncertain, so this should always read 100% — anything less signals a pipeline bug."
           />
         </div>
       )}

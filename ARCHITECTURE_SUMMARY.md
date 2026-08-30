@@ -31,7 +31,15 @@ UI shows stored source text, never a model quotation.
 | Candidate / qualified recall | 100% / 100% | 100% / 100% |
 | Final precision (rows with content) | 100% | 100% |
 | Field accuracy | 97.5% (contradiction 40/40) | 97.5% (storage/timepoints/criteria 20/20) |
-| Citation page accuracy / coverage | 96.8% / 100% | 99.1% / 100% |
+| Citation field hit rate (≥1 cited page correct) | 96.8% | 99.1% |
+| Citation precision (each cited page correct) | 93.7% | 85.4% |
+| All cited pages expected (per field) | 92.4% | 83.8% |
+
+Citation metrics are tiered by strictness; precision treats any citation to
+a page other than where ground truth rendered the fact as wrong, even when the
+fact legitimately repeats there (chunk overlap, restatements) — read it as a
+lower bound. Coverage (found claim ⇒ ≥1 validated citation) is enforced at
+extraction time, so it is an invariant, not a result.
 
 Test 2 reused the pipeline unchanged — a different prompt produced a
 different 6-column schema at the same accuracy. Evaluation runs against
@@ -46,7 +54,7 @@ Latency, wall-clock at `MAX_MODEL_CONCURRENCY=5` on the 620-doc corpus:
 **both benchmark reviews complete in ~3m45s** — plan ~9s, discovery ~8s,
 qualify 100 candidates ~1.5-2min, extract 20-41 docs ~1.5-2min. The document
 researcher averaged 7.4 tool calls/doc (CMC) and 6.7 (stability). One-time
-ingest: ~20 min for 620 PDFs (CPU SPLADE dominates; 915k embedding tokens = $0.12).
+ingest: ~30-40 min for 620 PDFs (CPU SPLADE dominates; 915k embedding tokens = $0.12).
 
 Cost, from an instrumented probe (per-call `usage` captured, × published prices):
 

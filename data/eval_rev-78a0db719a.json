@@ -87,7 +87,9 @@
     "extracted_positives": 20
   },
   "citations": {
-    "citation_page_accuracy": 0.990990990990991,
+    "citation_field_hit_rate": 0.990990990990991,
+    "citation_precision": 0.8538461538461538,
+    "fields_all_citations_expected": 0.8378378378378378,
     "citation_coverage": 1.0
   }
 }
