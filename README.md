@@ -5,6 +5,20 @@ corpus, extract a user-defined structured schema from every relevant one, with
 auditable citations to source pages. Architecture, measured results, and
 tradeoffs: see [`ARCHITECTURE_SUMMARY.md`](ARCHITECTURE_SUMMARY.md).
 
+## Repo layout
+
+```text
+data/corpus/         the 620 PDFs (DOC-0001..0620) — 60 synthetic positives hidden among real FDA docs
+data/ground_truth.json   evaluation-only labels + expected evidence pages; never read by the live pipeline
+data/manifest.jsonl  source URL/title per document (attribution only)
+data/app.db          SQLite state: parsed text, reviews, results, citations
+.qdrant_local/       embedded vector index (dense + SPLADE)
+scripts/             dataset generators/downloader, build_dataset, evaluate
+backend/app/         FastAPI: ingestion/ · retrieval/ · reviews/ (planner, qualifier, extractor, tools) · evaluation/
+frontend/            Next.js UI: prompt bar, progress, results table, citation drawer, eval card
+temporal_scaffold/   Step-2 durable-execution scaffolding (not wired into the app)
+```
+
 ## Setup
 
 Prereqs: Python 3.11+, Node 20+, an OpenAI API key.
