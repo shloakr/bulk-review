@@ -14,3 +14,4 @@ frontend.log
 .DS_Store
 .qdrant_local/.lock
 orca_bulk_review_fable_spec.md
+*.tsbuildinfo
