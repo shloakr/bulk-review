@@ -1,0 +1,4593 @@
+{
+  "DOC-0019": {
+    "relevant": true,
+    "product": "Xanthovar",
+    "excipient": "Microcrystalline cellulose",
+    "template": 0,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Avicel PH-200",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "reduced sticking and picking observed during tableting trials",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q3D"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-011"
+  },
+  "DOC-0046": {
+    "relevant": true,
+    "product": "Klorvatran",
+    "excipient": "Mannitol",
+    "template": 8,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Pearlitol 200SD",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "robust tablet hardness across the compression force design space",
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "ICH Q8(R2)",
+          "ICH Q3D"
+        ],
+        "status": "found",
+        "expected_pages": [
+          4
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-029"
+  },
+  "DOC-0048": {
+    "relevant": true,
+    "product": "Tegravance",
+    "excipient": "Sodium starch glycolate",
+    "template": 9,
+    "hard_cases": [
+      "guidance_in_table_footnote"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Explotab",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "justification": {
+        "value": "reduced sticking and picking observed during tableting trials",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "USP-NF",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms",
+          "ICH Q8(R2)"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-010"
+  },
+  "DOC-0052": {
+    "relevant": true,
+    "product": "Cormalent",
+    "excipient": "Colloidal silicon dioxide",
+    "template": 6,
+    "hard_cases": [
+      "distant_spec_page"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Aerosil 200 Pharma",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          7
+        ]
+      }
+    },
+    "synthetic_id": "SYN-007"
+  },
+  "DOC-0077": {
+    "relevant": true,
+    "product": "Aluvextra",
+    "excipient": "Crospovidone",
+    "template": 7,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Kollidon CL",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "lower moisture content mitigating hydrolytic degradation of the drug substance",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-038"
+  },
+  "DOC-0085": {
+    "relevant": true,
+    "product": "Klorvatran",
+    "excipient": "Mannitol",
+    "template": 8,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Pearlitol 200SD",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "improved flowability during high-speed compression",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q6A",
+          "Ph. Eur. general monograph 2034",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-009"
+  },
+  "DOC-0123": {
+    "relevant": true,
+    "product": "Ravolexin",
+    "excipient": "Povidone",
+    "template": 4,
+    "hard_cases": [
+      "distant_spec_page",
+      "multiple_grade_references"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Kollidon 30",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "improved flowability during high-speed compression",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q6A",
+          "USP-NF",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2,
+          7
+        ]
+      }
+    },
+    "synthetic_id": "SYN-025"
+  },
+  "DOC-0125": {
+    "relevant": true,
+    "product": "Quenzafil",
+    "excipient": "Magnesium stearate",
+    "template": 2,
+    "hard_cases": [
+      "justification_absent"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Kosher Passover grade HyQual",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": []
+      },
+      "guidance_cited": {
+        "value": [
+          "Ph. Eur. general monograph 2034",
+          "USP-NF",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-013"
+  },
+  "DOC-0129": {
+    "relevant": true,
+    "product": "Ostivarene",
+    "excipient": "Colloidal silicon dioxide",
+    "template": 6,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Aerosil 200 Pharma",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "lower moisture content mitigating hydrolytic degradation of the drug substance",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "USP-NF",
+          "IPEC Excipient Qualification Guide",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-037"
+  },
+  "DOC-0135": {
+    "relevant": true,
+    "product": "Brivalemer",
+    "excipient": "Lactose monohydrate",
+    "template": 1,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Tablettose 80",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q6A",
+          "ICH Q8(R2)",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-032"
+  },
+  "DOC-0154": {
+    "relevant": true,
+    "product": "Ostivarene",
+    "excipient": "Colloidal silicon dioxide",
+    "template": 6,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Aerosil 200 Pharma",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "justification": {
+        "value": "improved flowability during high-speed compression",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "ICH Q8(R2)",
+          "ICH Q6A"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-017"
+  },
+  "DOC-0162": {
+    "relevant": true,
+    "product": "Ravolexin",
+    "excipient": "Povidone",
+    "template": 4,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Kollidon 90F",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q8(R2)",
+          "ICH Q3D",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-005"
+  },
+  "DOC-0173": {
+    "relevant": true,
+    "product": "Lumateperax",
+    "excipient": "Croscarmellose sodium",
+    "template": 3,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Ac-Di-Sol SD-711",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "consistent dissolution performance across registration batches",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q6A",
+          "ICH Q3D"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-014"
+  },
+  "DOC-0182": {
+    "relevant": true,
+    "product": "Perquinolone",
+    "excipient": "Microcrystalline cellulose",
+    "template": 0,
+    "hard_cases": [
+      "historical_grade_first"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Avicel PH-102",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "superior compactibility at low compression forces",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "Ph. Eur. general monograph 2034",
+          "ICH Q3D",
+          "ICH Q6A"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-001"
+  },
+  "DOC-0198": {
+    "relevant": true,
+    "product": "Zelvaritin",
+    "excipient": "Sodium starch glycolate",
+    "template": 9,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Primojel",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "reduced sticking and picking observed during tableting trials",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q3D"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-020"
+  },
+  "DOC-0249": {
+    "relevant": true,
+    "product": "Brivalemer",
+    "excipient": "Lactose monohydrate",
+    "template": 1,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "FlowLac 100",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q3D",
+          "ICH Q6A",
+          "USP-NF"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-012"
+  },
+  "DOC-0253": {
+    "relevant": true,
+    "product": "Perquinolone",
+    "excipient": "Microcrystalline cellulose",
+    "template": 0,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Avicel PH-102",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "consistent dissolution performance across registration batches",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q8(R2)",
+          "ICH Q3D",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-021"
+  },
+  "DOC-0261": {
+    "relevant": true,
+    "product": "Ibexolimod",
+    "excipient": "Croscarmellose sodium",
+    "template": 3,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Ac-Di-Sol SD-711",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-024"
+  },
+  "DOC-0265": {
+    "relevant": true,
+    "product": "Ibexolimod",
+    "excipient": "Croscarmellose sodium",
+    "template": 3,
+    "hard_cases": [
+      "screening_grade_differs"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Ac-Di-Sol SD-711",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "superior compactibility at low compression forces",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-004"
+  },
+  "DOC-0266": {
+    "relevant": true,
+    "product": "Vilmodrine",
+    "excipient": "Magnesium stearate",
+    "template": 2,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Kosher Passover grade HyQual",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "lower moisture content mitigating hydrolytic degradation of the drug substance",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms",
+          "ICH Q8(R2)"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-023"
+  },
+  "DOC-0274": {
+    "relevant": true,
+    "product": "Dexpirona",
+    "excipient": "Povidone",
+    "template": 4,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Plasdone K-29/32",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "compatibility with the active ingredient demonstrated in binary stress studies",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q8(R2)",
+          "USP-NF"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-035"
+  },
+  "DOC-0275": {
+    "relevant": true,
+    "product": "Tribenzalol",
+    "excipient": "Mannitol",
+    "template": 8,
+    "hard_cases": [
+      "indirect_rationale"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Pearlitol 200SD",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "improved flowability during high-speed compression",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "USP-NF",
+          "ICH Q6A",
+          "ICH Q8(R2)"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-019"
+  },
+  "DOC-0307": {
+    "relevant": true,
+    "product": "Lumateperax",
+    "excipient": "Croscarmellose sodium",
+    "template": 3,
+    "hard_cases": [
+      "indirect_rationale",
+      "distant_spec_page"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Solutab Type A",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "tighter particle size distribution supporting content uniformity",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q8(R2)",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          7
+        ]
+      }
+    },
+    "synthetic_id": "SYN-034"
+  },
+  "DOC-0316": {
+    "relevant": true,
+    "product": "Sertavance",
+    "excipient": "Crospovidone",
+    "template": 7,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Polyplasdone XL-10",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "consistent dissolution performance across registration batches",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-008"
+  },
+  "DOC-0326": {
+    "relevant": true,
+    "product": "Aluvextra",
+    "excipient": "Crospovidone",
+    "template": 7,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Polyplasdone XL-10",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "improved blend uniformity in geometric dilution studies",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-018"
+  },
+  "DOC-0338": {
+    "relevant": true,
+    "product": "Quenzafil",
+    "excipient": "Magnesium stearate",
+    "template": 2,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Ligamed MF-2-V",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "tighter particle size distribution supporting content uniformity",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-033"
+  },
+  "DOC-0347": {
+    "relevant": true,
+    "product": "Vilmodrine",
+    "excipient": "Magnesium stearate",
+    "template": 2,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Ligamed MF-2-V",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "robust tablet hardness across the compression force design space",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      }
+    },
+    "synthetic_id": "SYN-003"
+  },
+  "DOC-0382": {
+    "relevant": true,
+    "product": "Zelvaritin",
+    "excipient": "Sodium starch glycolate",
+    "template": 9,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Explotab",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "lower moisture content mitigating hydrolytic degradation of the drug substance",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "USP-NF",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-040"
+  },
+  "DOC-0421": {
+    "relevant": true,
+    "product": "Cindrapect",
+    "excipient": "Lactose monohydrate",
+    "template": 1,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Tablettose 80",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "reduced sticking and picking observed during tableting trials",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q3D",
+          "USP-NF"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-002"
+  },
+  "DOC-0430": {
+    "relevant": true,
+    "product": "Tegravance",
+    "excipient": "Sodium starch glycolate",
+    "template": 9,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Primojel",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "robust tablet hardness across the compression force design space",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "Ph. Eur. general monograph 2034",
+          "IPEC Excipient Qualification Guide",
+          "ICH Q8(R2)"
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-030"
+  },
+  "DOC-0439": {
+    "relevant": true,
+    "product": "Dexpirona",
+    "excipient": "Povidone",
+    "template": 4,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Plasdone K-29/32",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "compatibility with the active ingredient demonstrated in binary stress studies",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q6A"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-015"
+  },
+  "DOC-0442": {
+    "relevant": true,
+    "product": "Fenoprazil",
+    "excipient": "Hypromellose",
+    "template": 5,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Methocel K4M Premium CR",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "lower moisture content mitigating hydrolytic degradation of the drug substance",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "ICH Q8(R2)",
+          "ICH Q3D"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-006"
+  },
+  "DOC-0480": {
+    "relevant": true,
+    "product": "Tribenzalol",
+    "excipient": "Mannitol",
+    "template": 8,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Parteck M200",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "improved flowability during high-speed compression",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-039"
+  },
+  "DOC-0488": {
+    "relevant": true,
+    "product": "Xanthovar",
+    "excipient": "Microcrystalline cellulose",
+    "template": 0,
+    "hard_cases": [
+      "guidance_in_table_footnote"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Avicel PH-102",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "ICH Q8(R2)",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-031"
+  },
+  "DOC-0491": {
+    "relevant": true,
+    "product": "Mavolutide",
+    "excipient": "Hypromellose",
+    "template": 5,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Methocel E5 Premium LV",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "compatibility with the active ingredient demonstrated in binary stress studies",
+        "status": "found",
+        "expected_pages": [
+          4
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q8(R2)"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": true,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-036"
+  },
+  "DOC-0520": {
+    "relevant": true,
+    "product": "Fenoprazil",
+    "excipient": "Hypromellose",
+    "template": 5,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Methocel E5 Premium LV",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "improved blend uniformity in geometric dilution studies",
+        "status": "found",
+        "expected_pages": [
+          4
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "USP-NF",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-026"
+  },
+  "DOC-0522": {
+    "relevant": true,
+    "product": "Cindrapect",
+    "excipient": "Lactose monohydrate",
+    "template": 1,
+    "hard_cases": [
+      "obsolete_spec_alongside"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Tablettose 80",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "robust tablet hardness across the compression force design space",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q8(R2)",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2,
+          3
+        ]
+      }
+    },
+    "synthetic_id": "SYN-022"
+  },
+  "DOC-0525": {
+    "relevant": true,
+    "product": "Mavolutide",
+    "excipient": "Hypromellose",
+    "template": 5,
+    "hard_cases": [
+      "multiple_grade_references"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Methocel E5 Premium LV",
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "justification": {
+        "value": "superior compactibility at low compression forces",
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "IPEC Excipient Qualification Guide",
+          "Ph. Eur. general monograph 2034"
+        ],
+        "status": "found",
+        "expected_pages": [
+          3
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          3,
+          4
+        ]
+      }
+    },
+    "synthetic_id": "SYN-016"
+  },
+  "DOC-0547": {
+    "relevant": true,
+    "product": "Sertavance",
+    "excipient": "Crospovidone",
+    "template": 7,
+    "hard_cases": [
+      "historical_grade_first",
+      "obsolete_spec_alongside"
+    ],
+    "fields": {
+      "excipient_grade": {
+        "value": "Polyplasdone XL-10",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "justification": {
+        "value": "reduced lot-to-lot variability reported by the qualified supplier",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q6A"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-028"
+  },
+  "DOC-0574": {
+    "relevant": true,
+    "product": "Cormalent",
+    "excipient": "Colloidal silicon dioxide",
+    "template": 6,
+    "hard_cases": [],
+    "fields": {
+      "excipient_grade": {
+        "value": "Aerosil 200 Pharma",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "justification": {
+        "value": "lower moisture content mitigating hydrolytic degradation of the drug substance",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "guidance_cited": {
+        "value": [
+          "ICH Q3D",
+          "FDA Guidance for Industry: Immediate Release Solid Oral Dosage Forms"
+        ],
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "contradicts_current_spec": {
+        "value": false,
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "synthetic_id": "SYN-027"
+  },
+  "DOC-0001": {
+    "relevant": false
+  },
+  "DOC-0002": {
+    "relevant": false
+  },
+  "DOC-0003": {
+    "relevant": false
+  },
+  "DOC-0004": {
+    "relevant": false
+  },
+  "DOC-0005": {
+    "relevant": false
+  },
+  "DOC-0006": {
+    "relevant": false
+  },
+  "DOC-0007": {
+    "relevant": false
+  },
+  "DOC-0008": {
+    "relevant": false
+  },
+  "DOC-0009": {
+    "relevant": false
+  },
+  "DOC-0010": {
+    "relevant": false
+  },
+  "DOC-0011": {
+    "relevant": false
+  },
+  "DOC-0012": {
+    "relevant": false
+  },
+  "DOC-0013": {
+    "relevant": false
+  },
+  "DOC-0014": {
+    "relevant": false
+  },
+  "DOC-0015": {
+    "relevant": false
+  },
+  "DOC-0016": {
+    "relevant": false
+  },
+  "DOC-0017": {
+    "relevant": false
+  },
+  "DOC-0018": {
+    "relevant": false
+  },
+  "DOC-0020": {
+    "relevant": false
+  },
+  "DOC-0021": {
+    "relevant": false
+  },
+  "DOC-0022": {
+    "relevant": false
+  },
+  "DOC-0023": {
+    "relevant": false
+  },
+  "DOC-0024": {
+    "relevant": false
+  },
+  "DOC-0025": {
+    "relevant": false
+  },
+  "DOC-0026": {
+    "relevant": false
+  },
+  "DOC-0027": {
+    "relevant": false
+  },
+  "DOC-0028": {
+    "relevant": false
+  },
+  "DOC-0029": {
+    "relevant": false
+  },
+  "DOC-0030": {
+    "relevant": false
+  },
+  "DOC-0031": {
+    "relevant": false
+  },
+  "DOC-0032": {
+    "relevant": false
+  },
+  "DOC-0033": {
+    "relevant": false
+  },
+  "DOC-0034": {
+    "relevant": false
+  },
+  "DOC-0035": {
+    "relevant": false
+  },
+  "DOC-0036": {
+    "relevant": false
+  },
+  "DOC-0037": {
+    "relevant": false
+  },
+  "DOC-0038": {
+    "relevant": false
+  },
+  "DOC-0039": {
+    "relevant": false
+  },
+  "DOC-0040": {
+    "relevant": false
+  },
+  "DOC-0041": {
+    "relevant": false
+  },
+  "DOC-0042": {
+    "relevant": false
+  },
+  "DOC-0043": {
+    "relevant": false
+  },
+  "DOC-0044": {
+    "relevant": false
+  },
+  "DOC-0045": {
+    "relevant": false
+  },
+  "DOC-0047": {
+    "relevant": false
+  },
+  "DOC-0049": {
+    "relevant": false
+  },
+  "DOC-0050": {
+    "relevant": false
+  },
+  "DOC-0051": {
+    "relevant": false
+  },
+  "DOC-0053": {
+    "relevant": false
+  },
+  "DOC-0054": {
+    "relevant": false
+  },
+  "DOC-0055": {
+    "relevant": false
+  },
+  "DOC-0056": {
+    "relevant": false
+  },
+  "DOC-0057": {
+    "relevant": false
+  },
+  "DOC-0058": {
+    "relevant": false
+  },
+  "DOC-0059": {
+    "relevant": false
+  },
+  "DOC-0060": {
+    "relevant": false
+  },
+  "DOC-0061": {
+    "relevant": false
+  },
+  "DOC-0062": {
+    "relevant": false
+  },
+  "DOC-0063": {
+    "relevant": false
+  },
+  "DOC-0064": {
+    "relevant": false
+  },
+  "DOC-0065": {
+    "relevant": false
+  },
+  "DOC-0066": {
+    "relevant": false
+  },
+  "DOC-0067": {
+    "relevant": false
+  },
+  "DOC-0068": {
+    "relevant": false
+  },
+  "DOC-0069": {
+    "relevant": false
+  },
+  "DOC-0070": {
+    "relevant": false
+  },
+  "DOC-0071": {
+    "relevant": false
+  },
+  "DOC-0072": {
+    "relevant": false
+  },
+  "DOC-0073": {
+    "relevant": false
+  },
+  "DOC-0074": {
+    "relevant": false
+  },
+  "DOC-0075": {
+    "relevant": false
+  },
+  "DOC-0076": {
+    "relevant": false
+  },
+  "DOC-0078": {
+    "relevant": false
+  },
+  "DOC-0079": {
+    "relevant": false
+  },
+  "DOC-0080": {
+    "relevant": false
+  },
+  "DOC-0081": {
+    "relevant": false
+  },
+  "DOC-0082": {
+    "relevant": false
+  },
+  "DOC-0083": {
+    "relevant": false
+  },
+  "DOC-0084": {
+    "relevant": false
+  },
+  "DOC-0086": {
+    "relevant": false
+  },
+  "DOC-0087": {
+    "relevant": false
+  },
+  "DOC-0088": {
+    "relevant": false
+  },
+  "DOC-0089": {
+    "relevant": false
+  },
+  "DOC-0090": {
+    "relevant": false
+  },
+  "DOC-0091": {
+    "relevant": false
+  },
+  "DOC-0092": {
+    "relevant": false
+  },
+  "DOC-0093": {
+    "relevant": false
+  },
+  "DOC-0094": {
+    "relevant": false
+  },
+  "DOC-0095": {
+    "relevant": false
+  },
+  "DOC-0096": {
+    "relevant": false
+  },
+  "DOC-0097": {
+    "relevant": false
+  },
+  "DOC-0098": {
+    "relevant": false
+  },
+  "DOC-0099": {
+    "relevant": false
+  },
+  "DOC-0100": {
+    "relevant": false
+  },
+  "DOC-0101": {
+    "relevant": false
+  },
+  "DOC-0102": {
+    "relevant": false
+  },
+  "DOC-0103": {
+    "relevant": false
+  },
+  "DOC-0104": {
+    "relevant": false
+  },
+  "DOC-0105": {
+    "relevant": false
+  },
+  "DOC-0106": {
+    "relevant": false
+  },
+  "DOC-0107": {
+    "relevant": false
+  },
+  "DOC-0108": {
+    "relevant": false
+  },
+  "DOC-0109": {
+    "relevant": false
+  },
+  "DOC-0110": {
+    "relevant": false
+  },
+  "DOC-0111": {
+    "relevant": false
+  },
+  "DOC-0112": {
+    "relevant": false
+  },
+  "DOC-0113": {
+    "relevant": false
+  },
+  "DOC-0114": {
+    "relevant": false
+  },
+  "DOC-0115": {
+    "relevant": false
+  },
+  "DOC-0116": {
+    "relevant": false
+  },
+  "DOC-0117": {
+    "relevant": false
+  },
+  "DOC-0118": {
+    "relevant": false
+  },
+  "DOC-0119": {
+    "relevant": false
+  },
+  "DOC-0120": {
+    "relevant": false
+  },
+  "DOC-0121": {
+    "relevant": false
+  },
+  "DOC-0122": {
+    "relevant": false
+  },
+  "DOC-0124": {
+    "relevant": false
+  },
+  "DOC-0126": {
+    "relevant": false
+  },
+  "DOC-0127": {
+    "relevant": false
+  },
+  "DOC-0128": {
+    "relevant": false
+  },
+  "DOC-0130": {
+    "relevant": false
+  },
+  "DOC-0131": {
+    "relevant": false
+  },
+  "DOC-0132": {
+    "relevant": false
+  },
+  "DOC-0133": {
+    "relevant": false
+  },
+  "DOC-0134": {
+    "relevant": false
+  },
+  "DOC-0136": {
+    "relevant": false
+  },
+  "DOC-0137": {
+    "relevant": false
+  },
+  "DOC-0138": {
+    "relevant": false
+  },
+  "DOC-0139": {
+    "relevant": false
+  },
+  "DOC-0140": {
+    "relevant": false
+  },
+  "DOC-0141": {
+    "relevant": false
+  },
+  "DOC-0142": {
+    "relevant": false
+  },
+  "DOC-0143": {
+    "relevant": false
+  },
+  "DOC-0144": {
+    "relevant": false
+  },
+  "DOC-0145": {
+    "relevant": false
+  },
+  "DOC-0146": {
+    "relevant": false
+  },
+  "DOC-0147": {
+    "relevant": false
+  },
+  "DOC-0148": {
+    "relevant": false
+  },
+  "DOC-0149": {
+    "relevant": false
+  },
+  "DOC-0150": {
+    "relevant": false
+  },
+  "DOC-0151": {
+    "relevant": false
+  },
+  "DOC-0152": {
+    "relevant": false
+  },
+  "DOC-0153": {
+    "relevant": false
+  },
+  "DOC-0155": {
+    "relevant": false
+  },
+  "DOC-0156": {
+    "relevant": false
+  },
+  "DOC-0157": {
+    "relevant": false
+  },
+  "DOC-0158": {
+    "relevant": false
+  },
+  "DOC-0159": {
+    "relevant": false
+  },
+  "DOC-0160": {
+    "relevant": false
+  },
+  "DOC-0161": {
+    "relevant": false
+  },
+  "DOC-0163": {
+    "relevant": false
+  },
+  "DOC-0164": {
+    "relevant": false
+  },
+  "DOC-0165": {
+    "relevant": false
+  },
+  "DOC-0166": {
+    "relevant": false
+  },
+  "DOC-0167": {
+    "relevant": false
+  },
+  "DOC-0168": {
+    "relevant": false
+  },
+  "DOC-0169": {
+    "relevant": false
+  },
+  "DOC-0170": {
+    "relevant": false
+  },
+  "DOC-0171": {
+    "relevant": false
+  },
+  "DOC-0172": {
+    "relevant": false
+  },
+  "DOC-0174": {
+    "relevant": false
+  },
+  "DOC-0175": {
+    "relevant": false
+  },
+  "DOC-0176": {
+    "relevant": false
+  },
+  "DOC-0177": {
+    "relevant": false
+  },
+  "DOC-0178": {
+    "relevant": false
+  },
+  "DOC-0179": {
+    "relevant": false
+  },
+  "DOC-0180": {
+    "relevant": false
+  },
+  "DOC-0181": {
+    "relevant": false
+  },
+  "DOC-0183": {
+    "relevant": false
+  },
+  "DOC-0184": {
+    "relevant": false
+  },
+  "DOC-0185": {
+    "relevant": false
+  },
+  "DOC-0186": {
+    "relevant": false
+  },
+  "DOC-0187": {
+    "relevant": false
+  },
+  "DOC-0188": {
+    "relevant": false
+  },
+  "DOC-0189": {
+    "relevant": false
+  },
+  "DOC-0190": {
+    "relevant": false
+  },
+  "DOC-0191": {
+    "relevant": false
+  },
+  "DOC-0192": {
+    "relevant": false
+  },
+  "DOC-0193": {
+    "relevant": false
+  },
+  "DOC-0194": {
+    "relevant": false
+  },
+  "DOC-0195": {
+    "relevant": false
+  },
+  "DOC-0196": {
+    "relevant": false
+  },
+  "DOC-0197": {
+    "relevant": false
+  },
+  "DOC-0199": {
+    "relevant": false
+  },
+  "DOC-0200": {
+    "relevant": false
+  },
+  "DOC-0201": {
+    "relevant": false
+  },
+  "DOC-0202": {
+    "relevant": false
+  },
+  "DOC-0203": {
+    "relevant": false
+  },
+  "DOC-0204": {
+    "relevant": false
+  },
+  "DOC-0205": {
+    "relevant": false
+  },
+  "DOC-0206": {
+    "relevant": false
+  },
+  "DOC-0207": {
+    "relevant": false
+  },
+  "DOC-0208": {
+    "relevant": false
+  },
+  "DOC-0209": {
+    "relevant": false
+  },
+  "DOC-0210": {
+    "relevant": false
+  },
+  "DOC-0211": {
+    "relevant": false
+  },
+  "DOC-0212": {
+    "relevant": false
+  },
+  "DOC-0213": {
+    "relevant": false
+  },
+  "DOC-0214": {
+    "relevant": false
+  },
+  "DOC-0215": {
+    "relevant": false
+  },
+  "DOC-0216": {
+    "relevant": false
+  },
+  "DOC-0217": {
+    "relevant": false
+  },
+  "DOC-0218": {
+    "relevant": false
+  },
+  "DOC-0219": {
+    "relevant": false
+  },
+  "DOC-0220": {
+    "relevant": false
+  },
+  "DOC-0221": {
+    "relevant": false
+  },
+  "DOC-0222": {
+    "relevant": false
+  },
+  "DOC-0223": {
+    "relevant": false
+  },
+  "DOC-0224": {
+    "relevant": false
+  },
+  "DOC-0225": {
+    "relevant": false
+  },
+  "DOC-0226": {
+    "relevant": false
+  },
+  "DOC-0227": {
+    "relevant": false
+  },
+  "DOC-0228": {
+    "relevant": false
+  },
+  "DOC-0229": {
+    "relevant": false
+  },
+  "DOC-0230": {
+    "relevant": false
+  },
+  "DOC-0231": {
+    "relevant": false
+  },
+  "DOC-0232": {
+    "relevant": false
+  },
+  "DOC-0233": {
+    "relevant": false
+  },
+  "DOC-0234": {
+    "relevant": false
+  },
+  "DOC-0235": {
+    "relevant": false
+  },
+  "DOC-0236": {
+    "relevant": false
+  },
+  "DOC-0237": {
+    "relevant": false
+  },
+  "DOC-0238": {
+    "relevant": false
+  },
+  "DOC-0239": {
+    "relevant": false
+  },
+  "DOC-0240": {
+    "relevant": false
+  },
+  "DOC-0241": {
+    "relevant": false
+  },
+  "DOC-0242": {
+    "relevant": false
+  },
+  "DOC-0243": {
+    "relevant": false
+  },
+  "DOC-0244": {
+    "relevant": false
+  },
+  "DOC-0245": {
+    "relevant": false
+  },
+  "DOC-0246": {
+    "relevant": false
+  },
+  "DOC-0247": {
+    "relevant": false
+  },
+  "DOC-0248": {
+    "relevant": false
+  },
+  "DOC-0250": {
+    "relevant": false
+  },
+  "DOC-0251": {
+    "relevant": false
+  },
+  "DOC-0252": {
+    "relevant": false
+  },
+  "DOC-0254": {
+    "relevant": false
+  },
+  "DOC-0255": {
+    "relevant": false
+  },
+  "DOC-0256": {
+    "relevant": false
+  },
+  "DOC-0257": {
+    "relevant": false
+  },
+  "DOC-0258": {
+    "relevant": false
+  },
+  "DOC-0259": {
+    "relevant": false
+  },
+  "DOC-0260": {
+    "relevant": false
+  },
+  "DOC-0262": {
+    "relevant": false
+  },
+  "DOC-0263": {
+    "relevant": false
+  },
+  "DOC-0264": {
+    "relevant": false
+  },
+  "DOC-0267": {
+    "relevant": false
+  },
+  "DOC-0268": {
+    "relevant": false
+  },
+  "DOC-0269": {
+    "relevant": false
+  },
+  "DOC-0270": {
+    "relevant": false
+  },
+  "DOC-0271": {
+    "relevant": false
+  },
+  "DOC-0272": {
+    "relevant": false
+  },
+  "DOC-0273": {
+    "relevant": false
+  },
+  "DOC-0276": {
+    "relevant": false
+  },
+  "DOC-0277": {
+    "relevant": false
+  },
+  "DOC-0278": {
+    "relevant": false
+  },
+  "DOC-0279": {
+    "relevant": false
+  },
+  "DOC-0280": {
+    "relevant": false
+  },
+  "DOC-0281": {
+    "relevant": false
+  },
+  "DOC-0282": {
+    "relevant": false
+  },
+  "DOC-0283": {
+    "relevant": false
+  },
+  "DOC-0284": {
+    "relevant": false
+  },
+  "DOC-0285": {
+    "relevant": false
+  },
+  "DOC-0286": {
+    "relevant": false
+  },
+  "DOC-0287": {
+    "relevant": false
+  },
+  "DOC-0288": {
+    "relevant": false
+  },
+  "DOC-0289": {
+    "relevant": false
+  },
+  "DOC-0290": {
+    "relevant": false
+  },
+  "DOC-0291": {
+    "relevant": false
+  },
+  "DOC-0292": {
+    "relevant": false
+  },
+  "DOC-0293": {
+    "relevant": false
+  },
+  "DOC-0294": {
+    "relevant": false
+  },
+  "DOC-0295": {
+    "relevant": false
+  },
+  "DOC-0296": {
+    "relevant": false
+  },
+  "DOC-0297": {
+    "relevant": false
+  },
+  "DOC-0298": {
+    "relevant": false
+  },
+  "DOC-0299": {
+    "relevant": false
+  },
+  "DOC-0300": {
+    "relevant": false
+  },
+  "DOC-0301": {
+    "relevant": false
+  },
+  "DOC-0302": {
+    "relevant": false
+  },
+  "DOC-0303": {
+    "relevant": false
+  },
+  "DOC-0304": {
+    "relevant": false
+  },
+  "DOC-0305": {
+    "relevant": false
+  },
+  "DOC-0306": {
+    "relevant": false
+  },
+  "DOC-0308": {
+    "relevant": false
+  },
+  "DOC-0309": {
+    "relevant": false
+  },
+  "DOC-0310": {
+    "relevant": false
+  },
+  "DOC-0311": {
+    "relevant": false
+  },
+  "DOC-0312": {
+    "relevant": false
+  },
+  "DOC-0313": {
+    "relevant": false
+  },
+  "DOC-0314": {
+    "relevant": false
+  },
+  "DOC-0315": {
+    "relevant": false
+  },
+  "DOC-0317": {
+    "relevant": false
+  },
+  "DOC-0318": {
+    "relevant": false
+  },
+  "DOC-0319": {
+    "relevant": false
+  },
+  "DOC-0320": {
+    "relevant": false
+  },
+  "DOC-0321": {
+    "relevant": false
+  },
+  "DOC-0322": {
+    "relevant": false
+  },
+  "DOC-0323": {
+    "relevant": false
+  },
+  "DOC-0324": {
+    "relevant": false
+  },
+  "DOC-0325": {
+    "relevant": false
+  },
+  "DOC-0327": {
+    "relevant": false
+  },
+  "DOC-0328": {
+    "relevant": false
+  },
+  "DOC-0329": {
+    "relevant": false
+  },
+  "DOC-0330": {
+    "relevant": false
+  },
+  "DOC-0331": {
+    "relevant": false
+  },
+  "DOC-0332": {
+    "relevant": false
+  },
+  "DOC-0333": {
+    "relevant": false
+  },
+  "DOC-0334": {
+    "relevant": false
+  },
+  "DOC-0335": {
+    "relevant": false
+  },
+  "DOC-0336": {
+    "relevant": false
+  },
+  "DOC-0337": {
+    "relevant": false
+  },
+  "DOC-0339": {
+    "relevant": false
+  },
+  "DOC-0340": {
+    "relevant": false
+  },
+  "DOC-0341": {
+    "relevant": false
+  },
+  "DOC-0342": {
+    "relevant": false
+  },
+  "DOC-0343": {
+    "relevant": false
+  },
+  "DOC-0344": {
+    "relevant": false
+  },
+  "DOC-0345": {
+    "relevant": false
+  },
+  "DOC-0346": {
+    "relevant": false
+  },
+  "DOC-0348": {
+    "relevant": false
+  },
+  "DOC-0349": {
+    "relevant": false
+  },
+  "DOC-0350": {
+    "relevant": false
+  },
+  "DOC-0351": {
+    "relevant": false
+  },
+  "DOC-0352": {
+    "relevant": false
+  },
+  "DOC-0353": {
+    "relevant": false
+  },
+  "DOC-0354": {
+    "relevant": false
+  },
+  "DOC-0355": {
+    "relevant": false
+  },
+  "DOC-0356": {
+    "relevant": false
+  },
+  "DOC-0357": {
+    "relevant": false
+  },
+  "DOC-0358": {
+    "relevant": false
+  },
+  "DOC-0359": {
+    "relevant": false
+  },
+  "DOC-0360": {
+    "relevant": false
+  },
+  "DOC-0361": {
+    "relevant": false
+  },
+  "DOC-0362": {
+    "relevant": false
+  },
+  "DOC-0363": {
+    "relevant": false
+  },
+  "DOC-0364": {
+    "relevant": false
+  },
+  "DOC-0365": {
+    "relevant": false
+  },
+  "DOC-0366": {
+    "relevant": false
+  },
+  "DOC-0367": {
+    "relevant": false
+  },
+  "DOC-0368": {
+    "relevant": false
+  },
+  "DOC-0369": {
+    "relevant": false
+  },
+  "DOC-0370": {
+    "relevant": false
+  },
+  "DOC-0371": {
+    "relevant": false
+  },
+  "DOC-0372": {
+    "relevant": false
+  },
+  "DOC-0373": {
+    "relevant": false
+  },
+  "DOC-0374": {
+    "relevant": false
+  },
+  "DOC-0375": {
+    "relevant": false
+  },
+  "DOC-0376": {
+    "relevant": false
+  },
+  "DOC-0377": {
+    "relevant": false
+  },
+  "DOC-0378": {
+    "relevant": false
+  },
+  "DOC-0379": {
+    "relevant": false
+  },
+  "DOC-0380": {
+    "relevant": false
+  },
+  "DOC-0381": {
+    "relevant": false
+  },
+  "DOC-0383": {
+    "relevant": false
+  },
+  "DOC-0384": {
+    "relevant": false
+  },
+  "DOC-0385": {
+    "relevant": false
+  },
+  "DOC-0386": {
+    "relevant": false
+  },
+  "DOC-0387": {
+    "relevant": false
+  },
+  "DOC-0388": {
+    "relevant": false
+  },
+  "DOC-0389": {
+    "relevant": false
+  },
+  "DOC-0390": {
+    "relevant": false
+  },
+  "DOC-0391": {
+    "relevant": false
+  },
+  "DOC-0392": {
+    "relevant": false
+  },
+  "DOC-0393": {
+    "relevant": false
+  },
+  "DOC-0394": {
+    "relevant": false
+  },
+  "DOC-0395": {
+    "relevant": false
+  },
+  "DOC-0396": {
+    "relevant": false
+  },
+  "DOC-0397": {
+    "relevant": false
+  },
+  "DOC-0398": {
+    "relevant": false
+  },
+  "DOC-0399": {
+    "relevant": false
+  },
+  "DOC-0400": {
+    "relevant": false
+  },
+  "DOC-0401": {
+    "relevant": false
+  },
+  "DOC-0402": {
+    "relevant": false
+  },
+  "DOC-0403": {
+    "relevant": false
+  },
+  "DOC-0404": {
+    "relevant": false
+  },
+  "DOC-0405": {
+    "relevant": false
+  },
+  "DOC-0406": {
+    "relevant": false
+  },
+  "DOC-0407": {
+    "relevant": false
+  },
+  "DOC-0408": {
+    "relevant": false
+  },
+  "DOC-0409": {
+    "relevant": false
+  },
+  "DOC-0410": {
+    "relevant": false
+  },
+  "DOC-0411": {
+    "relevant": false
+  },
+  "DOC-0412": {
+    "relevant": false
+  },
+  "DOC-0413": {
+    "relevant": false
+  },
+  "DOC-0414": {
+    "relevant": false
+  },
+  "DOC-0415": {
+    "relevant": false
+  },
+  "DOC-0416": {
+    "relevant": false
+  },
+  "DOC-0417": {
+    "relevant": false
+  },
+  "DOC-0418": {
+    "relevant": false
+  },
+  "DOC-0419": {
+    "relevant": false
+  },
+  "DOC-0420": {
+    "relevant": false
+  },
+  "DOC-0422": {
+    "relevant": false
+  },
+  "DOC-0423": {
+    "relevant": false
+  },
+  "DOC-0424": {
+    "relevant": false
+  },
+  "DOC-0425": {
+    "relevant": false
+  },
+  "DOC-0426": {
+    "relevant": false
+  },
+  "DOC-0427": {
+    "relevant": false
+  },
+  "DOC-0428": {
+    "relevant": false
+  },
+  "DOC-0429": {
+    "relevant": false
+  },
+  "DOC-0431": {
+    "relevant": false
+  },
+  "DOC-0432": {
+    "relevant": false
+  },
+  "DOC-0433": {
+    "relevant": false
+  },
+  "DOC-0434": {
+    "relevant": false
+  },
+  "DOC-0435": {
+    "relevant": false
+  },
+  "DOC-0436": {
+    "relevant": false
+  },
+  "DOC-0437": {
+    "relevant": false
+  },
+  "DOC-0438": {
+    "relevant": false
+  },
+  "DOC-0440": {
+    "relevant": false
+  },
+  "DOC-0441": {
+    "relevant": false
+  },
+  "DOC-0443": {
+    "relevant": false
+  },
+  "DOC-0444": {
+    "relevant": false
+  },
+  "DOC-0445": {
+    "relevant": false
+  },
+  "DOC-0446": {
+    "relevant": false
+  },
+  "DOC-0447": {
+    "relevant": false
+  },
+  "DOC-0448": {
+    "relevant": false
+  },
+  "DOC-0449": {
+    "relevant": false
+  },
+  "DOC-0450": {
+    "relevant": false
+  },
+  "DOC-0451": {
+    "relevant": false
+  },
+  "DOC-0452": {
+    "relevant": false
+  },
+  "DOC-0453": {
+    "relevant": false
+  },
+  "DOC-0454": {
+    "relevant": false
+  },
+  "DOC-0455": {
+    "relevant": false
+  },
+  "DOC-0456": {
+    "relevant": false
+  },
+  "DOC-0457": {
+    "relevant": false
+  },
+  "DOC-0458": {
+    "relevant": false
+  },
+  "DOC-0459": {
+    "relevant": false
+  },
+  "DOC-0460": {
+    "relevant": false
+  },
+  "DOC-0461": {
+    "relevant": false
+  },
+  "DOC-0462": {
+    "relevant": false
+  },
+  "DOC-0463": {
+    "relevant": false
+  },
+  "DOC-0464": {
+    "relevant": false
+  },
+  "DOC-0465": {
+    "relevant": false
+  },
+  "DOC-0466": {
+    "relevant": false
+  },
+  "DOC-0467": {
+    "relevant": false
+  },
+  "DOC-0468": {
+    "relevant": false
+  },
+  "DOC-0469": {
+    "relevant": false
+  },
+  "DOC-0470": {
+    "relevant": false
+  },
+  "DOC-0471": {
+    "relevant": false
+  },
+  "DOC-0472": {
+    "relevant": false
+  },
+  "DOC-0473": {
+    "relevant": false
+  },
+  "DOC-0474": {
+    "relevant": false
+  },
+  "DOC-0475": {
+    "relevant": false
+  },
+  "DOC-0476": {
+    "relevant": false
+  },
+  "DOC-0477": {
+    "relevant": false
+  },
+  "DOC-0478": {
+    "relevant": false
+  },
+  "DOC-0479": {
+    "relevant": false
+  },
+  "DOC-0481": {
+    "relevant": false
+  },
+  "DOC-0482": {
+    "relevant": false
+  },
+  "DOC-0483": {
+    "relevant": false
+  },
+  "DOC-0484": {
+    "relevant": false
+  },
+  "DOC-0485": {
+    "relevant": false
+  },
+  "DOC-0486": {
+    "relevant": false
+  },
+  "DOC-0487": {
+    "relevant": false
+  },
+  "DOC-0489": {
+    "relevant": false
+  },
+  "DOC-0490": {
+    "relevant": false
+  },
+  "DOC-0492": {
+    "relevant": false
+  },
+  "DOC-0493": {
+    "relevant": false
+  },
+  "DOC-0494": {
+    "relevant": false
+  },
+  "DOC-0495": {
+    "relevant": false
+  },
+  "DOC-0496": {
+    "relevant": false
+  },
+  "DOC-0497": {
+    "relevant": false
+  },
+  "DOC-0498": {
+    "relevant": false
+  },
+  "DOC-0499": {
+    "relevant": false
+  },
+  "DOC-0500": {
+    "relevant": false
+  },
+  "DOC-0501": {
+    "relevant": false
+  },
+  "DOC-0502": {
+    "relevant": false
+  },
+  "DOC-0503": {
+    "relevant": false
+  },
+  "DOC-0504": {
+    "relevant": false
+  },
+  "DOC-0505": {
+    "relevant": false
+  },
+  "DOC-0506": {
+    "relevant": false
+  },
+  "DOC-0507": {
+    "relevant": false
+  },
+  "DOC-0508": {
+    "relevant": false
+  },
+  "DOC-0509": {
+    "relevant": false
+  },
+  "DOC-0510": {
+    "relevant": false
+  },
+  "DOC-0511": {
+    "relevant": false
+  },
+  "DOC-0512": {
+    "relevant": false
+  },
+  "DOC-0513": {
+    "relevant": false
+  },
+  "DOC-0514": {
+    "relevant": false
+  },
+  "DOC-0515": {
+    "relevant": false
+  },
+  "DOC-0516": {
+    "relevant": false
+  },
+  "DOC-0517": {
+    "relevant": false
+  },
+  "DOC-0518": {
+    "relevant": false
+  },
+  "DOC-0519": {
+    "relevant": false
+  },
+  "DOC-0521": {
+    "relevant": false
+  },
+  "DOC-0523": {
+    "relevant": false
+  },
+  "DOC-0524": {
+    "relevant": false
+  },
+  "DOC-0526": {
+    "relevant": false
+  },
+  "DOC-0527": {
+    "relevant": false
+  },
+  "DOC-0528": {
+    "relevant": false
+  },
+  "DOC-0529": {
+    "relevant": false
+  },
+  "DOC-0530": {
+    "relevant": false
+  },
+  "DOC-0531": {
+    "relevant": false
+  },
+  "DOC-0532": {
+    "relevant": false
+  },
+  "DOC-0533": {
+    "relevant": false
+  },
+  "DOC-0534": {
+    "relevant": false
+  },
+  "DOC-0535": {
+    "relevant": false
+  },
+  "DOC-0536": {
+    "relevant": false
+  },
+  "DOC-0537": {
+    "relevant": false
+  },
+  "DOC-0538": {
+    "relevant": false
+  },
+  "DOC-0539": {
+    "relevant": false
+  },
+  "DOC-0540": {
+    "relevant": false
+  },
+  "DOC-0541": {
+    "relevant": false
+  },
+  "DOC-0542": {
+    "relevant": false
+  },
+  "DOC-0543": {
+    "relevant": false
+  },
+  "DOC-0544": {
+    "relevant": false
+  },
+  "DOC-0545": {
+    "relevant": false
+  },
+  "DOC-0546": {
+    "relevant": false
+  },
+  "DOC-0548": {
+    "relevant": false
+  },
+  "DOC-0549": {
+    "relevant": false
+  },
+  "DOC-0550": {
+    "relevant": false
+  },
+  "DOC-0551": {
+    "relevant": false
+  },
+  "DOC-0552": {
+    "relevant": false
+  },
+  "DOC-0553": {
+    "relevant": false
+  },
+  "DOC-0554": {
+    "relevant": false
+  },
+  "DOC-0555": {
+    "relevant": false
+  },
+  "DOC-0556": {
+    "relevant": false
+  },
+  "DOC-0557": {
+    "relevant": false
+  },
+  "DOC-0558": {
+    "relevant": false
+  },
+  "DOC-0559": {
+    "relevant": false
+  },
+  "DOC-0560": {
+    "relevant": false
+  },
+  "DOC-0561": {
+    "relevant": false
+  },
+  "DOC-0562": {
+    "relevant": false
+  },
+  "DOC-0563": {
+    "relevant": false
+  },
+  "DOC-0564": {
+    "relevant": false
+  },
+  "DOC-0565": {
+    "relevant": false
+  },
+  "DOC-0566": {
+    "relevant": false
+  },
+  "DOC-0567": {
+    "relevant": false
+  },
+  "DOC-0568": {
+    "relevant": false
+  },
+  "DOC-0569": {
+    "relevant": false
+  },
+  "DOC-0570": {
+    "relevant": false
+  },
+  "DOC-0571": {
+    "relevant": false
+  },
+  "DOC-0572": {
+    "relevant": false
+  },
+  "DOC-0573": {
+    "relevant": false
+  },
+  "DOC-0575": {
+    "relevant": false
+  },
+  "DOC-0576": {
+    "relevant": false
+  },
+  "DOC-0577": {
+    "relevant": false
+  },
+  "DOC-0578": {
+    "relevant": false
+  },
+  "DOC-0579": {
+    "relevant": false
+  },
+  "DOC-0580": {
+    "relevant": false
+  },
+  "DOC-0581": {
+    "relevant": false
+  },
+  "DOC-0582": {
+    "relevant": false
+  },
+  "DOC-0583": {
+    "relevant": false
+  },
+  "DOC-0584": {
+    "relevant": false
+  },
+  "DOC-0585": {
+    "relevant": false
+  },
+  "DOC-0586": {
+    "relevant": false
+  },
+  "DOC-0587": {
+    "relevant": false
+  },
+  "DOC-0588": {
+    "relevant": false
+  },
+  "DOC-0589": {
+    "relevant": false
+  },
+  "DOC-0590": {
+    "relevant": false
+  },
+  "DOC-0591": {
+    "relevant": false
+  },
+  "DOC-0592": {
+    "relevant": false
+  },
+  "DOC-0593": {
+    "relevant": false
+  },
+  "DOC-0594": {
+    "relevant": false
+  },
+  "DOC-0595": {
+    "relevant": false
+  },
+  "DOC-0596": {
+    "relevant": false
+  },
+  "DOC-0597": {
+    "relevant": false
+  },
+  "DOC-0598": {
+    "relevant": false
+  },
+  "DOC-0599": {
+    "relevant": false
+  },
+  "DOC-0600": {
+    "relevant": false
+  },
+  "DOC-0601": {
+    "relevant": true,
+    "product": "Ardelmax",
+    "template": 5,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 65% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24,
+          36
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Water content: not more than 5.0% w/w",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "Chamber excursion of +3\u00b0C for 12 hours affected the 12-month interval for batch 002; mean kinetic temperature remained within limits.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (20 mg and 40 mg); the 25 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Ardelmax will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-006"
+  },
+  "DOC-0602": {
+    "relevant": true,
+    "product": "Dintravel",
+    "template": 1,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 65% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24,
+          36
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Total degradation products: not more than 2.0%",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 24-month timepoint for batch 001 was tested 11 days outside the \u00b17-day protocol window; a quality assessment concluded no impact on data validity.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (5 mg and 50 mg); the 10 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Dintravel will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-014"
+  },
+  "DOC-0603": {
+    "relevant": true,
+    "product": "Nexavorin",
+    "template": 3,
+    "fields": {
+      "storage_condition": {
+        "value": "5\u00b0C \u00b1 3\u00b0C",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          12,
+          18,
+          24,
+          36,
+          48
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Water content: not more than 5.0% w/w",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 18-month timepoint for batch 002 was tested 20 days outside the \u00b17-day protocol window; a quality assessment concluded no impact on data validity.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "In accordance with ICH Q1D, bracketing is applied: the 10 mg and 100 mg strengths are tested, and the intermediate 20 mg strength is covered because all strengths are direct scale-equivalents of a common blend in the same container closure system.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "A post-approval commitment is made to enrol one commercial batch of Nexavorin per year into the ongoing stability program and to report confirmed out-of-specification results within 30 days.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-004"
+  },
+  "DOC-0604": {
+    "relevant": true,
+    "product": "Sondrelix",
+    "template": 1,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 65% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24,
+          36
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Any individual unspecified degradant: not more than 0.20%",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "deviations": {
+        "value": "Chamber excursion of +3\u00b0C for 15 hours affected the 3-month interval for batch 001; mean kinetic temperature remained within limits.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "Bracketing is justified under ICH Q1D on the basis that the 25 mg and 100 mg presentations bracket the 75 mg presentation with respect to fill volume and surface-to-volume ratio.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Sondrelix will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-002"
+  },
+  "DOC-0605": {
+    "relevant": true,
+    "product": "Tolzepram",
+    "template": 4,
+    "fields": {
+      "storage_condition": {
+        "value": "25\u00b0C \u00b1 2\u00b0C / 60% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Total degradation products: not more than 2.0%",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "deviations": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (20 mg and 75 mg); the 25 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "The first three commercial-scale batches of Tolzepram will be placed on the long-term stability program, with at least one production batch added annually thereafter.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-005"
+  },
+  "DOC-0606": {
+    "relevant": true,
+    "product": "Gestrinal",
+    "template": 4,
+    "fields": {
+      "storage_condition": {
+        "value": "25\u00b0C \u00b1 2\u00b0C / 60% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "Chamber excursion of +3\u00b0C for 9 hours affected the 6-month interval for batch 001; mean kinetic temperature remained within limits.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "Bracketing is justified under ICH Q1D on the basis that the 10 mg and 100 mg presentations bracket the 40 mg presentation with respect to fill volume and surface-to-volume ratio.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Gestrinal will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-017"
+  },
+  "DOC-0607": {
+    "relevant": true,
+    "product": "Fluventra",
+    "template": 0,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 75% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Dissolution: Q = 80% in 30 minutes",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 9-month samples for batch 003 were held at ambient conditions for 18 hours during chamber maintenance before testing; trending showed no anomalous results.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (10 mg and 100 mg); the 20 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Fluventra will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-007"
+  },
+  "DOC-0608": {
+    "relevant": true,
+    "product": "Kolzepine",
+    "template": 1,
+    "fields": {
+      "storage_condition": {
+        "value": "5\u00b0C \u00b1 3\u00b0C",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          12,
+          18,
+          24,
+          36,
+          48
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "In accordance with ICH Q1D, bracketing is applied: the 20 mg and 40 mg strengths are tested, and the intermediate 25 mg strength is covered because all strengths are direct scale-equivalents of a common blend in the same container closure system.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "A post-approval commitment is made to enrol one commercial batch of Kolzepine per year into the ongoing stability program and to report confirmed out-of-specification results within 30 days.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-020"
+  },
+  "DOC-0609": {
+    "relevant": true,
+    "product": "Cerulopam",
+    "template": 0,
+    "fields": {
+      "storage_condition": {
+        "value": "25\u00b0C \u00b1 2\u00b0C / 60% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Total degradation products: not more than 2.0%",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 9-month samples for batch 002 were held at ambient conditions for 11 hours during chamber maintenance before testing; trending showed no anomalous results.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (20 mg and 100 mg); the 25 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Cerulopam will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-013"
+  },
+  "DOC-0610": {
+    "relevant": true,
+    "product": "Pardolint",
+    "template": 4,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 75% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Any individual unspecified degradant: not more than 0.20%",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "deviations": {
+        "value": "The 9-month samples for batch 001 were held at ambient conditions for 10 hours during chamber maintenance before testing; trending showed no anomalous results.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (25 mg and 100 mg); the 50 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "A post-approval commitment is made to enrol one commercial batch of Pardolint per year into the ongoing stability program and to report confirmed out-of-specification results within 30 days.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-011"
+  },
+  "DOC-0611": {
+    "relevant": true,
+    "product": "Gravistat",
+    "template": 1,
+    "fields": {
+      "storage_condition": {
+        "value": "5\u00b0C \u00b1 3\u00b0C",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          12,
+          18,
+          24,
+          36,
+          48
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Total degradation products: not more than 2.0%",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "Chamber excursion of +3\u00b0C for 12 hours affected the 24-month interval for batch 001; mean kinetic temperature remained within limits.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "Bracketing is justified under ICH Q1D on the basis that the 10 mg and 100 mg presentations bracket the 40 mg presentation with respect to fill volume and surface-to-volume ratio.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "A post-approval commitment is made to enrol one commercial batch of Gravistat per year into the ongoing stability program and to report confirmed out-of-specification results within 30 days.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-008"
+  },
+  "DOC-0612": {
+    "relevant": true,
+    "product": "Faldorene",
+    "template": 3,
+    "fields": {
+      "storage_condition": {
+        "value": "5\u00b0C \u00b1 3\u00b0C",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          12,
+          18,
+          24,
+          36,
+          48
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Dissolution: Q = 80% in 30 minutes",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "Bracketing is justified under ICH Q1D on the basis that the 5 mg and 50 mg presentations bracket the 10 mg presentation with respect to fill volume and surface-to-volume ratio.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Faldorene will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-016"
+  },
+  "DOC-0613": {
+    "relevant": true,
+    "product": "Ossivane",
+    "template": 3,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 65% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24,
+          36
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 3-month samples for batch 002 were held at ambient conditions for 12 hours during chamber maintenance before testing; trending showed no anomalous results.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (10 mg and 50 mg); the 20 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Ossivane will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-010"
+  },
+  "DOC-0614": {
+    "relevant": true,
+    "product": "Ilvomida",
+    "template": 5,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 65% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24,
+          36
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (40 mg and 100 mg); the 50 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "The first three commercial-scale batches of Ilvomida will be placed on the long-term stability program, with at least one production batch added annually thereafter.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-018"
+  },
+  "DOC-0615": {
+    "relevant": true,
+    "product": "Ebrantix",
+    "template": 2,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 75% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Dissolution: Q = 80% in 30 minutes",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "In accordance with ICH Q1D, bracketing is applied: the 20 mg and 75 mg strengths are tested, and the intermediate 50 mg strength is covered because all strengths are direct scale-equivalents of a common blend in the same container closure system.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "A post-approval commitment is made to enrol one commercial batch of Ebrantix per year into the ongoing stability program and to report confirmed out-of-specification results within 30 days.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-015"
+  },
+  "DOC-0616": {
+    "relevant": true,
+    "product": "Jantreva",
+    "template": 0,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 75% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Dissolution: Q = 80% in 30 minutes",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 3-month timepoint for batch 001 was tested 19 days outside the \u00b17-day protocol window; a quality assessment concluded no impact on data validity.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "A bracketing design per ICH Q1D tests the extremes of the strength range (10 mg and 25 mg); the 20 mg strength shares identical formulation composition and packaging and is therefore not tested.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "The first three commercial-scale batches of Jantreva will be placed on the long-term stability program, with at least one production batch added annually thereafter.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-019"
+  },
+  "DOC-0617": {
+    "relevant": true,
+    "product": "Quibrantol",
+    "template": 2,
+    "fields": {
+      "storage_condition": {
+        "value": "30\u00b0C \u00b1 2\u00b0C / 75% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          18
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Water content: not more than 5.0% w/w",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "deviations": {
+        "value": "The 6-month samples for batch 003 were held at ambient conditions for 12 hours during chamber maintenance before testing; trending showed no anomalous results.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "In accordance with ICH Q1D, bracketing is applied: the 10 mg and 40 mg strengths are tested, and the intermediate 25 mg strength is covered because all strengths are direct scale-equivalents of a common blend in the same container closure system.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "A post-approval commitment is made to enrol one commercial batch of Quibrantol per year into the ongoing stability program and to report confirmed out-of-specification results within 30 days.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-003"
+  },
+  "DOC-0618": {
+    "relevant": true,
+    "product": "Velmorapt",
+    "template": 0,
+    "fields": {
+      "storage_condition": {
+        "value": "25\u00b0C \u00b1 2\u00b0C / 60% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": null,
+        "status": "not_found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "Bracketing is justified under ICH Q1D on the basis that the 5 mg and 40 mg presentations bracket the 25 mg presentation with respect to fill volume and surface-to-volume ratio.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "The first three commercial-scale batches of Velmorapt will be placed on the long-term stability program, with at least one production batch added annually thereafter.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-001"
+  },
+  "DOC-0619": {
+    "relevant": true,
+    "product": "Rimvastex",
+    "template": 5,
+    "fields": {
+      "storage_condition": {
+        "value": "5\u00b0C \u00b1 3\u00b0C",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          12,
+          18,
+          24,
+          36,
+          48
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "deviations": {
+        "value": "The 24-month timepoint for batch 001 was tested 17 days outside the \u00b17-day protocol window; a quality assessment concluded no impact on data validity.",
+        "status": "found",
+        "expected_pages": [
+          2
+        ]
+      },
+      "bracketing_justification": {
+        "value": "In accordance with ICH Q1D, bracketing is applied: the 5 mg and 50 mg strengths are tested, and the intermediate 25 mg strength is covered because all strengths are direct scale-equivalents of a common blend in the same container closure system.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "The first three commercial-scale batches of Rimvastex will be placed on the long-term stability program, with at least one production batch added annually thereafter.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-012"
+  },
+  "DOC-0620": {
+    "relevant": true,
+    "product": "Helixorin",
+    "template": 2,
+    "fields": {
+      "storage_condition": {
+        "value": "25\u00b0C \u00b1 2\u00b0C / 60% RH \u00b1 5% RH",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "timepoints": {
+        "value": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          18,
+          24
+        ],
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "acceptance_criteria": {
+        "value": "Assay: 95.0\u2013105.0% of label claim",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "deviations": {
+        "value": "The 18-month samples for batch 002 were held at ambient conditions for 16 hours during chamber maintenance before testing; trending showed no anomalous results.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      },
+      "bracketing_justification": {
+        "value": "In accordance with ICH Q1D, bracketing is applied: the 40 mg and 75 mg strengths are tested, and the intermediate 50 mg strength is covered because all strengths are direct scale-equivalents of a common blend in the same container closure system.",
+        "status": "found",
+        "expected_pages": [
+          1,
+          2
+        ]
+      },
+      "post_approval_commitment": {
+        "value": "As a condition of approval, three consecutive production batches of Helixorin will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available.",
+        "status": "found",
+        "expected_pages": [
+          1
+        ]
+      }
+    },
+    "relevant_to": "stability",
+    "synthetic_id": "STB-009"
+  }
+}

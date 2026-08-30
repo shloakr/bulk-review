@@ -1,0 +1,93 @@
+{
+  "review_id": "rev-78a0db719a",
+  "test": "stability",
+  "field_key_map": {
+    "long_term_storage_condition": "storage_condition",
+    "testing_timepoints": "timepoints",
+    "stability_acceptance_criteria": "acceptance_criteria",
+    "protocol_deviations": "deviations",
+    "bracketing_justification": "bracketing_justification",
+    "post_approval_stability_commitment": "post_approval_commitment"
+  },
+  "discovery": {
+    "test": "stability",
+    "candidate_recall": 1.0,
+    "qualified_recall": 1.0,
+    "qualified_precision": 1.0,
+    "final_precision": 1.0,
+    "substantive_documents": 20,
+    "false_positives_with_content": [],
+    "candidates": 100,
+    "qualified": 20,
+    "missed_candidates": [],
+    "missed_qualified": [],
+    "false_positives_qualified": []
+  },
+  "extraction": {
+    "overall_field_accuracy": 0.975,
+    "per_field": {
+      "storage_condition": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "total": 20,
+        "errors": []
+      },
+      "timepoints": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "total": 20,
+        "errors": []
+      },
+      "acceptance_criteria": {
+        "accuracy": 1.0,
+        "correct": 20,
+        "total": 20,
+        "errors": []
+      },
+      "deviations": {
+        "accuracy": 0.95,
+        "correct": 19,
+        "total": 20,
+        "errors": [
+          {
+            "document_id": "DOC-0613",
+            "predicted": null,
+            "status": "uncertain",
+            "expected": "The 3-month samples for batch 002 were held at ambient conditions for 12 hours during chamber maintenance before testing; trending showed no anomalous results."
+          }
+        ]
+      },
+      "bracketing_justification": {
+        "accuracy": 0.95,
+        "correct": 19,
+        "total": 20,
+        "errors": [
+          {
+            "document_id": "DOC-0612",
+            "predicted": null,
+            "status": "uncertain",
+            "expected": "Bracketing is justified under ICH Q1D on the basis that the 5 mg and 50 mg presentations bracket the 10 mg presentation with respect to fill volume and surface-to-volume ratio."
+          }
+        ]
+      },
+      "post_approval_commitment": {
+        "accuracy": 0.95,
+        "correct": 19,
+        "total": 20,
+        "errors": [
+          {
+            "document_id": "DOC-0613",
+            "predicted": null,
+            "status": "uncertain",
+            "expected": "As a condition of approval, three consecutive production batches of Ossivane will be entered into the stability program, and the retest period will be re-evaluated after 36-month data are available."
+          }
+        ]
+      }
+    },
+    "extracted_positives": 20
+  },
+  "citations": {
+    "citation_page_accuracy": 0.990990990990991,
+    "citation_coverage": 1.0
+  }
+}

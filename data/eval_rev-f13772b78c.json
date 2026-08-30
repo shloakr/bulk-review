@@ -1,0 +1,79 @@
+{
+  "review_id": "rev-f13772b78c",
+  "field_key_map": {
+    "excipient_grade_used": "excipient_grade",
+    "grade_justification": "justification",
+    "guidance_cited": "guidance_cited",
+    "contradicts_current_specification": "contradicts_current_spec"
+  },
+  "discovery": {
+    "candidate_recall": 1.0,
+    "qualified_recall": 1.0,
+    "qualified_precision": 0.8888888888888888,
+    "candidates": 100,
+    "qualified": 45,
+    "missed_candidates": [],
+    "missed_qualified": [],
+    "false_positives_qualified": [
+      "DOC-0103",
+      "DOC-0109",
+      "DOC-0176",
+      "DOC-0186",
+      "DOC-0191"
+    ]
+  },
+  "extraction": {
+    "overall_field_accuracy": 0.98125,
+    "per_field": {
+      "excipient_grade": {
+        "accuracy": 0.95,
+        "correct": 38,
+        "total": 40,
+        "errors": [
+          {
+            "document_id": "DOC-0015",
+            "predicted": "Croscarmellose sodium \u2014 Solutab Type A",
+            "status": "conflicting",
+            "expected": "Ac-Di-Sol SD-711"
+          },
+          {
+            "document_id": "DOC-0172",
+            "predicted": "Croscarmellose sodium \u2014 Ac-Di-Sol SD-711",
+            "status": "found",
+            "expected": "Solutab Type A"
+          }
+        ]
+      },
+      "justification": {
+        "accuracy": 1.0,
+        "correct": 40,
+        "total": 40,
+        "errors": []
+      },
+      "guidance_cited": {
+        "accuracy": 1.0,
+        "correct": 40,
+        "total": 40,
+        "errors": []
+      },
+      "contradicts_current_spec": {
+        "accuracy": 0.975,
+        "correct": 39,
+        "total": 40,
+        "errors": [
+          {
+            "document_id": "DOC-0173",
+            "predicted": null,
+            "status": "uncertain",
+            "expected": true
+          }
+        ]
+      }
+    },
+    "extracted_positives": 40
+  },
+  "citations": {
+    "citation_page_accuracy": 0.9736842105263158,
+    "citation_coverage": 1.0
+  }
+}

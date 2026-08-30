@@ -1,0 +1,23 @@
+{
+  "name": "arca-bulk-review-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--no-network-family-autoselection next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.6",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.4",
+    "@types/node": "22.19.11",
+    "@types/react": "19.2.9",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.2.4",
+    "typescript": "5.9.3"
+  }
+}

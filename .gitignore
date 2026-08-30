@@ -1,0 +1,16 @@
+.venv/
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+.qdrant_storage/
+data/_staging/
+data/app.db.bak*
+data/app.db-wal
+data/app.db-shm
+backend.log
+frontend.log
+.DS_Store
+.qdrant_local/.lock
+orca_bulk_review_fable_spec.md
